@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">test</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Apka Testowa!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="btn1">Przycisk 1</string>
+    <string name="btn2">Przycisk 2</string>
+    <string name="title_activity_ekran_btn1">EkranBtn1</string>
+    <string name="title_activity_ekran_btn2">ekranBtn2</string>
 </resources>
