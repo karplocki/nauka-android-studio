@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".noteActivity"
+            android:label="@string/title_activity_note"
+            android:parentActivityName=".EkranBtn1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.test.EkranBtn1" />
+        </activity>
+        <activity
             android:name=".ekranBtn2"
             android:label="@string/title_activity_ekran_btn2"
             android:parentActivityName=".MainActivity"

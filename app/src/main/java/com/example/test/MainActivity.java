@@ -38,8 +38,13 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            // Klikniecie przycisku ustawienia
+            return true;
+        }else if (id == R.id.action_settings1) {
+            // Klikniecie przycisku ustawienia
             return true;
         }
+
 
         return super.onOptionsItemSelected(item);
     }
